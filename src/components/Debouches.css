@@ -1,0 +1,33 @@
+.debouches-container {
+  color: #001f4d;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.debouches-container h1 {
+  margin-bottom: 10px;
+}
+
+.texte-container{
+  width: 50%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 400px;
+  height: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  padding-right: 50px;
+}
