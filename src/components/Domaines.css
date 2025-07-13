@@ -1,0 +1,56 @@
+.domaines {
+  background-color: #f5f6f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.domaines-title {
+  font-size: 36px;
+  color: #001f4d;
+  margin-bottom: 10px;
+}
+
+.domaines-subtitle {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.domaines-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.domaine-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 320px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.domaine-card:hover {
+  transform: translateY(-5px);
+}
+
+.domaine-card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.domaine-card h3 {
+  color: #e6a400;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.domaine-card p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
