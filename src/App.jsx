@@ -9,6 +9,7 @@ import Admission from "./components/Admission.jsx";
 import ProgrammePedagogique from "./components/ProgrammePedagogique.jsx";
 import Technos from "./components/Technos.jsx";
 import Partenaires from "./components/Partenaires.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 import "./App.css";
@@ -26,6 +27,7 @@ function App() {
       <ProgrammePedagogique />
       <Technos />
       <Partenaires />
+      <Footer />
     </>
   );
 }
