@@ -1,0 +1,26 @@
+.partenaires {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.partenaires h2 {
+  font-size: 2rem;
+  color: #001f4d;
+  margin-bottom: 40px;
+}
+
+.partenaire-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.partenaire-logos img {
+  max-height: 60px;
+  max-width: 160px;
+  object-fit: contain;
+  transition: filter 0.3s;
+}
