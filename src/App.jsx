@@ -5,6 +5,7 @@ import Apropos from "./components/Apropos";
 import EquipePedagogique from "./components/EquipePedagogique.jsx";
 import Debouche from "./components/Debouches.jsx";
 import Domaines from "./components/Domaines.jsx";
+import Admission from "./components/Admission.jsx";
 
 
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
       <EquipePedagogique />
       <Debouche />
       <Domaines />
+      <Admission />
     </>
   );
 }
