@@ -14,7 +14,7 @@ export default function Apropos() {
           <h2>À propos de nous</h2>
 
           <div className="apropos-row">
-            <span className="icon">🎓</span>
+            <span className="icon"><i class='bx bxs-briefcase'></i></span>
             <div>
               <h3>+3 ans</h3>
               <p>Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l'informatique.</p>
@@ -22,7 +22,7 @@ export default function Apropos() {
           </div>
 
           <div className="apropos-row">
-            <span className="icon">👨‍🎓</span>
+            <span className="icon"><i class='bx bx-male-female'></i></span>
             <div>
               <h3>+250 étudiants</h3>
               <p>Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation.</p>
@@ -30,7 +30,7 @@ export default function Apropos() {
           </div>
 
           <div className="apropos-row">
-            <span className="icon">🎯</span>
+            <span className="icon"><i class='bx bx-library'></i></span>
             <div>
               <h3>Notre mission</h3>
               <p>Former les jeunes sur des domaines comme l’intelligence artificielle, la cybersécurité et la programmation.</p>

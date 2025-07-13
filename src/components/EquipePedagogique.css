@@ -1,0 +1,92 @@
+.equipe-section {
+  background-color: #6d9bd0;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.equipe-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 850px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.equipe-card {
+  background-color: white;
+  color: #001f4d;
+  border-radius: 16px;
+  flex: 0 0 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.equipe-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.equipe-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.equipe-card p {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: #003366;
+  color: white;
+  border: none;
+  font-size: 26px;
+  padding: 8px 14px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 8px;
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
