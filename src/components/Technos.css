@@ -1,0 +1,37 @@
+.technos {
+  background-color: #f5f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.technos h2 {
+  font-size: 2rem;
+  color: #001f4d;
+  margin-bottom: 40px;
+}
+
+.techno-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.techno-logos {
+  display: flex;
+  align-items: center;
+}
+
+.techno-logos img {
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.techno-logos p {
+  width: 60%;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
